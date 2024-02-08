@@ -3,19 +3,19 @@ HELLO WORLD!
 
     <title>Curso html DIO</title>
 </head>
-<body style="background-color:lightgray">
+<body>
     <h1 id="inicio">CURSO BÁSICO HTML</h1>
 <hr>
     <h2>Índice</h2>
 <ul>
-    <li><a href="historia">História da Web</a></li>
-    <li><a href="client-server">Client x Server</a></li>
-    <li><a href="linguagens">Linguagens de programação</a></li>
-    <li><a href="introducao-html">Introdução à HTML</a></li>
-    <li><a href="referencias">Referências</a></li>
+    <li><a href="#historia">História da Web</a></li>
+    <li><a href="#client-server">Client x Server</a></li>
+    <li><a href="#linguagens">Linguagens de programação</a></li>
+    <li><a href="#introducao-html">Introdução à HTML</a></li>
+    <li><a href="#referencias">Referências</a></li>
 </ul>
     <h2 id="historia">Aula 1: História da Web</h2>
-    <small><a href="inicio"> (Voltar ao início)</a></small>
+    <small><a href="#inicio"> (Voltar ao início)</a></small>
     
 <small><br><br>A história da internet é mais antiga e complexa do que muitos imaginam. Para chegar na Web que temos hoje, temos que passar pela criação dos primeiros sites e dos primeiros computadores. Alguns nomes importantes como <strong>Joseph Licklider</strong> e <strong>Grace Hopper</strong> merecem ser mencionados, por seu significado na história da tecnologia e internet como um todo.</small>
     <p>Para explicarmos a criação da internet, temos que entender quando e porque os computadores foram criados. <strong>O primeiro computador da história</strong> foi o <i>Harvard Mark I</i>. Criado em 1944, o Mark I pesava mais de 4000kg e tinha centenas de quilômetros de fio. 
@@ -26,7 +26,7 @@ HELLO WORLD!
     </p>
 <hr>
     <h2 id="client-server">Aula 2: Relação Client x Server</h2>
-    <small><a href="inicio"> (Voltar ao início)</a></small>
+    <small><a href="#inicio"> (Voltar ao início)</a></small>
 <small><br><br>A relação entre cliente e server é a relação entre o cliente que utiliza o site e o programador, ou owner do site, que hospeda ele em alguma máquina (servidor), trocando informações e arquivos através da internet Web, dentro do site.</small>
     
 <p>O cliente pode estar em vários dispositivos diferentes, como em um computador, notebook, tablet, celular... Por este motivo, é muito importante o site ser compatível com vários desses dispositivos. Todo site é acessado por meio da internet, que faz a conexão entre a <strong>máquina do cliente</strong> e o <strong>servidor do site</strong>, para que o servidor envie as informações e arquivos de volta para o cliente. 
@@ -48,19 +48,53 @@ HELLO WORLD!
 </ul>
 <hr>
     <h2 id="linguagens">Aula 3: Linguagens de programação</h2>
-    <small><a href="inicio"> (Voltar ao início)</a></small>
-<blockquote>//pequeno resumo do assunto</blockquote>
-    <p>//Parágrafo explicando o conteúdo</p>
+    <small><a href="#inicio"> (Voltar ao início)</a></small>
+<br><br><small>Linguagem de programação é uma linguagem escrita que junta informações e cria instruções para gerar programas (softwares)</small>
+<ol>
+    <h3>Principais linguagens de programação atualmente</h3>
+<strong>
+        <li> Javascript </li>
+        <li> Python </li>
+        <li> Java </li>
+        <li> PHP </li>
+        <li> C# </li>
+</strong>
+    </ol>
+<p>Outro tipo de linguagem é a linguagem Server-Side, que é executada dentro do servidor. Por exemplo, as linguagens php, javascript, C#...</p>
+    <img src="https://i0.wp.com/css-tricks.com/wp-content/csstricks-uploads/serversideresults.jpg" width="450" height="333">
+<p>Ao contrário das linguagens Server-Side, temos a linguagem Client-Side, que é executado na máquina do cliente. A linguagem Javascript também roda do lado do cliente, exibindo informações e arquivos para o cliente.</p>
+<p>Para não restar dúvidas, HTML <strong>não</strong> é uma linguagem de programação. É um arquivo de marcação, textos que o navegador interpreta e envia para o cliente.</p>
+<hr>
 
     <h2 id="introducao-html">Aula 4: Introdução à HTML</h2>
-    <small><a href="inicio"> (Voltar ao início)</a></small>
-<blockquote>//pequeno resumo do assunto</blockquote>
-    <p>//Parágrafo explicando o conteúdo</p>
-<hr>
-    <h3 id="referencias"><mark>Referênciasgit</mark></h3>
+    <small><a href="#inicio"> (Voltar ao início)</a></small>
+<br><br><small>HTML é um arquivo de marcação, interpretado pelo navegador para entregar informações e arquivos para o cliente através do site. Pode ser escrito em qualquer programa de texto, desde um bloco de notas, Notepad++ e também o Visual Studio Code.</small>
+    <p>O <strong>Inspetor de Elementos</strong> é uma ferramente que tem em seu navegador e serve para analisar os componentes e a estrutura do site. Essa ferramenta pode ser acessada pelo atalho cntrl+shift+i.</p>
+    <p>A <strong>Estrutura Básica de HTML</strong> é <strong><i>"head"</i></strong>, que é o cabeçalho da página, e é a primeira coisa que aparece para o cliente e a primeira coisa a ser carregada. Dentro do cabeçalho, temos o <strong><i>"title"</i></strong>, o nome que aparece na aba do site.</p>
+        <h3>Dentro do HTML, temos as <i>tags</i>:</h3>
 <ul>
-<li><a href="" target="blank">titulo da refencia</a></li>
+<li>h1, h2, h3...</li><p>As tags h1, h2... etc, são tags de título, h1 coloca um título principal, h2 um subtítulo (um pouco menor) e por daí em diante.</p>
+<li>Mark</li><p>A tag Mark <mark>grifa</mark> uma palavra ou frase</p>
+<li>Small</li><p>A tag small cria um texto menor que o texto principal.</p>
+<li>i</li><p>A tag i deixa o texto em <i>itálico</i></p>
+<li>strong</li><p>A tag strong é usada para deixar o texto em <strong>negrito</strong></p>
+<li>ol</li><p>A tag ol cria uma Lista Ordenada</p>
+<li>ul</li><p>A tag ul cria uma Lista Não Ordenada</p>
+<li>li</li><p>A tag li cria um item na lista</p>
+<li>a</li><p>A tag cria uma ancoragem de página</p>
+<li>hr</li><p>A tag hr cria um divisor de linha na página</p>
+<li>blockquote</li><p>A tag blockquote cria um texto de citação</p>
+
+
 </ul>
-    <small><a href="inicio"> ← Voltar ao início</a></small>
-</body>
-</html>
+
+<hr>
+        <h3 id="referencias"><mark>Referências</mark></h3>
+    <ul>
+    <li><a href="www.w3schools.com" target="blank">W3C Schools</a></li>
+    <li><a href="https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EWgg3UxUJt1GhLwXu6Z0L1cB7EhiHOoMQ-8vECmYXzDwYA?e=KTRDY4" target="blank">Slides Aulas 1 a 3</a></li>
+    <li><a href="https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EUBD7085ULpApq4i1_8fWfMBhVJQMyxt2K_d1sJOhRUN_w?e=vk37t3" target="blank">Slides Introdução HTML</a></li>
+    </ul>
+        <small><a href="#inicio"> ← Voltar ao início</a></small>
+    </body>
+    </html>
